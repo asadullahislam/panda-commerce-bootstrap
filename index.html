@@ -7,12 +7,20 @@
     <title>Panda Commerce</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css">
+
+
+
 </head>
+
 
 <body>
 
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -28,13 +36,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -48,7 +56,7 @@
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-info rounded-2 p-5 ">
+                    <div class="carousel-item active panda-bg-info rounded-2 p-5 ">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ps-5  ">
                                 <div>
@@ -56,7 +64,7 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.</p>
                                     <h1>$420</h1>
-                                    <button class="btn-warning">
+                                    <button class="panda-btn-buy-now">
                                         Buy Now
                                     </button>
 
@@ -72,7 +80,7 @@
 
 
 
-                    <div class="carousel-item active bg-info rounded-2 p-5">
+                    <div class="carousel-item active panda-bg-info rounded-2 p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ps-5  ">
                                 <div>
@@ -80,7 +88,7 @@
                                     <p>This is the best tv in the world for people who just want to waste time in front
                                         of tv.</p>
                                     <h1>$1200</h1>
-                                    <button class="btn-warning">
+                                    <button class="panda-btn-buy-now">
                                         Buy Now
                                     </button>
 
@@ -94,7 +102,7 @@
                     </div>
 
 
-                    <div class="carousel-item active bg-info rounded-2 p-5">
+                    <div class="carousel-item active panda-bg-info rounded-2 p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center ps-5  ">
                                 <div>
@@ -102,7 +110,7 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.</p>
                                     <h1>$600</h1>
-                                    <button class="btn-warning">
+                                    <button class="panda-btn-buy-now">
                                         Buy Now
                                     </button>
 
@@ -144,8 +152,8 @@
 
         <section>
 
-            <div class="container text-center my-5 ">
-                <div class="row g-2">
+            <div class="container text-center my-5  " id="shoes">
+                <div class="row g-4 catagories">
 
                     <!-- single catagories -->
 
@@ -201,7 +209,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -215,7 +223,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -230,7 +238,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -244,7 +252,7 @@
         <!-- Backpack section start -->
 
 
-        <section class="container my-5">
+        <section class="container my-5 " id="backpack">
             <h2>Backpack</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -258,7 +266,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -272,7 +280,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -287,7 +295,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <div class="btn btn-warning">Buy Now</div>
+                            <div class="btn panda-btn-buy-now">Buy Now</div>
                         </div>
                     </div>
                 </div>
@@ -299,7 +307,49 @@
         <!-- Backpack section end -->
 
 
+        <!-- subscribe start -->
+
+
+        <section id="subscribe" style="height: 300px;"
+            class="container d-flex rounded-3 justify-content-center align-items-center panda-bg-info">
+
+
+            <div ">
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+
+                <form>
+
+                    <div class=" mb-1">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+
+            <button type="submit" class="btn panda-btn-buy-now">Submit</button>
+            </form>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!-- subscribe end-->
+
+
     </main>
+
+    <!-- footer   start   -->
+    <footer class="mt-5 text-center">
+        <p><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+
+    </footer>
+
+    <!-- footer end -->
 
 
 
